@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    .box{
+      height: 300px;
+      width: 300px;
+      background-color: teal;
+    }
+
+    .active{
+      background-color: orangered;
+    }
+    button{
+      height: 30px;
+      width: 150px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+  <button class="btn">Change Color</button>
+<script>
+  window.onload=function(){
+  const btn=document.querySelector('.btn');
+  const box=document.querySelector('.box');
+  btn.addEventListener('click',function(){
+    box.classList.toggle('active');
+  });
+  }
+ </script>
+</body>
+</html>

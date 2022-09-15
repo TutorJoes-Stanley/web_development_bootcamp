@@ -1,0 +1,10 @@
+Positon Properties
+1.Static      Default
+2.Relative    
+    LTRB
+    Wont Comes out from normal document flow
+3.Absolute
+    LTRB
+    Comes out from normal document flow
+4.Fixed
+5.Sticky
